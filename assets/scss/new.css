@@ -1,0 +1,200 @@
+main #certification {
+  padding: 100px 50px;
+  text-align: center;
+  background-color: #131219;
+}
+
+@media screen and (max-width: 1024px) {
+  main #certification {
+    padding: 50px 20px;
+  }
+}
+
+main #certification .larguraMaxContainer h2 {
+  padding-bottom: 20px;
+  color: #fefbfb;
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+main #certification .larguraMaxContainer h2 span {
+  color: #6610f2;
+  font-size: 6rem;
+}
+
+main #certification .larguraMaxContainer div {
+  margin: 25px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: left;
+}
+
+main #certification .larguraMaxContainer div > article {
+  height: auto;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: calc(33% - 20px);
+      flex-basis: calc(33% - 20px);
+  background-color: #17161d;
+  padding: 30px 25px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid #17161d;
+}
+
+main #certification .larguraMaxContainer div > article:hover {
+  border-radius: 5px;
+  border: 2px solid #17161d;
+  -o-border-image: linear-gradient(225deg, #6610f2 0%, #17161d 100%) 1;
+     border-image: linear-gradient(225deg, #6610f2 0%, #17161d 100%) 1;
+}
+
+@media screen and (max-width: 1124px) {
+  main #certification .larguraMaxContainer div > article {
+    -ms-flex-preferred-size: calc(50% - 20px);
+        flex-basis: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main #certification .larguraMaxContainer div > article {
+    -ms-flex-preferred-size: calc(100% - 20px);
+        flex-basis: calc(100% - 20px);
+  }
+}
+
+main #certification .larguraMaxContainer div > article img {
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+main #certification .larguraMaxContainer div > article h3 {
+  font-size: 2.4rem;
+  color: #fefbfb;
+  font-weight: 500;
+}
+
+main #certification .larguraMaxContainer div > article p {
+  line-height: 28px;
+  margin-top: 20px;
+  color: #c9c9c9;
+  font-family: "Circular Std Book";
+  font-size: 1.6rem;
+}
+
+main #certification .larguraMaxContainer div > article > span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+main #certification .larguraMaxContainer div > article > span a {
+  width: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+  main #certification .larguraMaxContainer div > article > span a {
+    width: 100%;
+  }
+}
+
+main #certification .larguraMaxContainer div > article > span button {
+  background-color: #6610f2;
+  padding: 10px 25px;
+  color: #fefbfb;
+  border: 0;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  main #certification .larguraMaxContainer div > article > span button {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+main #certification .larguraMaxContainer div > article > span button:hover {
+  cursor: pointer;
+  background-color: #5429cf;
+}
+
+main #certification .larguraMaxContainer div > article > span button .iconify {
+  font-size: 20px;
+}
+
+main #certification .larguraMaxContainer div > article .linguagensProjeto {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
+main #certification .larguraMaxContainer div > article .linguagensProjeto span {
+  padding: 5px;
+  background-color: #131219;
+  border-radius: 5px;
+  color: #fefbfb;
+  margin-bottom: 5px;
+}
+
+main #certification .larguraMaxContainer a {
+  color: #6610f2;
+  font-size: 18px;
+  position: relative;
+}
+
+main #certification .larguraMaxContainer a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  height: 1px;
+  bottom: -7px;
+  left: 0;
+  background: -webkit-gradient(linear, right top, left top, from(#6610f2), to(#17161d));
+  background: linear-gradient(270deg, #6610f2 0%, #17161d 100%);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1), -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+}
